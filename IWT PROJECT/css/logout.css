@@ -1,0 +1,31 @@
+/* <!-- all button --> */
+.button,sign a{
+    float: right;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 7px 2px;
+    cursor: pointer; 
+}
+
+.button:hover {
+    background-color:  #ffc107;
+    color: white;
+}
+.button:hover a{
+    color: black;
+}
+
+.sign {
+	border-radius: 12px; 
+     
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+	
+}

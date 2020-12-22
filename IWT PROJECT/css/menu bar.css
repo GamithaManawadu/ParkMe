@@ -1,0 +1,42 @@
+/* <!-- menu bar --> */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background: linear-gradient(#0d0d0d, #404040, #0d0d0d);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.menubar {
+    float: left;
+}
+
+.menubar a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    
+}
+
+.menubar a:hover {
+    background-color: rgb(238, 185, 11);
+}
+
+.menubar a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.fa fa-user-circle{
+    font-size:34px; 
+    color:blanchedalmond;
+}

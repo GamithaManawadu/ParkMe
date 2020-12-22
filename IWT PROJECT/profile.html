@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head >
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">	
+  <title>Park Me</title>
+
+    <!--menu bar-->
+	<link rel="stylesheet" type="text/css" href="css/menu bar.css">
+    <!--profile-->
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+
+
+
+  <!--footer -->
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+  <!--User icon-->
+  <link rel="stylesheet" type="text/css" href="css/user icon.css">
+
+  <!--logOUT-->
+  <link rel="stylesheet" type="text/css" href="css/logout.css">
+
+ 
+  
+  
+
+  <style>
+    body {
+        background-color: rgb(192,192,192);
+        overflow-x: hidden;
+        }
+  </style>
+</head>
+
+<body>
+
+  <!--menu bar-->
+  <ul class="menu">
+    <li class="menubar">
+      <a class="active" href="welcome.html">Park me</a>
+    </li>
+    <li class="menubar">
+      <a href="home.html">HOME</a>
+    </li>
+    <li class="menubar">
+      <a href="#">Book A Place</a>
+    </li>
+    <li class="menubar">
+      <a href="#">Advertise Your Place</a>
+    </li>
+    <li class="menubar">
+      <a href="#">User Account</a>
+    </li>
+
+    <!--user icon-->
+    <img class="fa" src="images/user.png" alt="user icon">
+  
+     <!--logout-->
+     <button class = "button sign"><a href="#">Logout</a></button>  
+     <i class="fa fa-user-circle" style="font-size:34px; color:blanchedalmond"></i>
+
+      
+  </ul>
+<div class=profile>
+  <h1><center>User Profile</center></h1>
+ 
+</div>
+<div="form">
+    <form action="#" onsubmit="return checkPassword()">
+
+   
+
+        <div class="container">
+          
+          <h2>Edit Your account.</h2>
+         
+          <center>
+        <div class="text">
+          
+          First name :<br/>
+          <input type="text"name="first name"placeholder="first name" required ><br/>
+          last name:<br/>
+          <input type="text"name="last name"placeholder="last name"required><br/>
+          gender:<br/>
+          <input type="radio"name="gender" checked>male
+          <input type="radio"name="gender">female<br/><br/>
+          mobile number:<br/>
+          <input type="text"name="mobile" pattern="[0-9]{10}"placeholder="1234567890"required><br>
+          e mail:<br/>
+          <input type="text"name="e mail" placeholder="abc@gmail.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.{a-z](2,3)$"required><br>
+          address:<br/>
+          <textarea name="address"rows="8"cols="50"required></textarea><br/><br/>
+         
+          Driving Licsence ID:<br/>
+          <input type="text" name="e mail" placeholder="A1234567" pattern="[A-Z]{1}[0-9]{7}"required></br>
+          
+          password<br/>
+          <input type="password"id="pwd" required><br/>
+          re-enter password<br/>
+          <input type="password" id="cnfrmpwd" required><br/><br/>
+          <br>
+          
+    <input class="inputstyle" id="check" type="checkbox" onclick="enableButton()">Confirm details<br/><br/>
+          
+    </div>
+	<center>
+	<input type="submit" id="submitBtn" value="submit"disabled></center>
+	</form>
+	
+
+        </form>
+</div>
+
+ 
+   <!--footer -->
+  <footer>
+    <div id="foot">
+
+      <div id="links">
+        <a id="footmenu" href="home.html">Home</a> |
+        <a href="">Privacy Policy</a> |
+        <a href="Terms and conditions.html">Terms of Use</a> |
+        <a href="">Disclaimer</a> |
+        <a href="about.html">About Us</a>
+        <br/>
+        <br/>
+        <a id="footmenu" href="Login.html">Login</a> |
+        <a href="signup.html">Register</a> |
+        <a href="">Advertise</a> |
+        <a href="">Careers</a> |
+        <a href="">Contact Us</a>
+        <br/>
+        <br/>
+        <img id="norton" src="images/norton.png">
+      </div>
+        <p> © 2019 Park me. All Rights Reserved. Site by
+          <a href="#">INRIX</a>
+          <br/>
+          <br/> Copyright © 1995-2019 eBay Inc. All Rights Reserved. Accessibility, User Agreement, Privacy, Cookies and AdChoice
+          <br/> Norton Secured - powered by Verisign</p>
+
+      </div>
+    </div>
+  </footer>
+  <!-- validt js -->
+  <script src="js/validt.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+.side-social{
+    width:50px;
+    margin-top: 190px;
+    position: fixed;
+
+}
+.side-icons{
+    width:35px;
+    padding:5px 10px 10px 5px;
+}
+.side-icons:hover{
+    background-color: black;
+    transform: scale(1.2);
+    transition: 0.5s ease;
+    border-right: solid 2px aqua;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

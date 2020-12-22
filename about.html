@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">	
+    <title>Park me</title>
+	<!--about-->
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+
+    <!--menu bar-->
+	<link rel="stylesheet" type="text/css" href="css/menu bar.css">
+
+    <!-- Slide Header -->
+  <link rel="stylesheet" type="text/css" href="css/slide.css">
+  
+  <!--logOUT-->
+  <link rel="stylesheet" type="text/css" href="css/logout.css">
+
+   <!--table-->
+  <link rel="stylesheet" type="text/css" href="css/table.css">
+
+  <!--fotter -->
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  
+  <!--User icon-->
+  <link rel="stylesheet" type="text/css" href="css/user icon.css">
+  
+  <style>
+    body {
+        overflow-x: hidden;
+        background-color: rgb(192,192,192);
+        }
+  </style>
+  
+</head>
+
+<body>
+
+  <!--menu bar-->
+  <ul class="menu">
+    <li class="menubar">
+      <a href="home.html">Park me</a>
+    </li>
+    <li class="menubar">
+      <a class= "active" href="home.html">HOME</a>
+    </li>
+    <li class="menubar">
+      <a href="#">Book A Place</a>
+    </li>
+    <li class="menubar">
+      <a href="#">Advertise Your Place</a>
+    </li>
+    <li class="menubar">
+      <a href="#">User Account</a>
+    </li>
+	
+	 <!--user icon-->
+    <img class="fa" src="images/user.png" alt="user icon">
+    
+  <!--logOUT-->
+    <button class = "button sign"><a href="#">Log Out</a></button>  
+      <i class="fa fa-user-circle" style="font-size:34px; color:blanchedalmond"></i>
+  </ul>
+   <!-- Slide Header -->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/Home/1.jpg">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/Home/3.jpg">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/Home/2.jpg">
+    </div>
+
+  </div>
+  <br />
+  
+   <div style="text-align:center">
+   <span class="dot"></span>
+   <span class="dot"></span>
+   <span class="dot"></span>
+   </div>
+   <br/>
+  
+<h1><font color = "red">
+About Us
+</font>
+</h1> 
+  
+  <section class="intro bg-white intro--wide">
+  <div class="grid">
+    <header class="intro__header">
+      <h2 class="intro__title">Transforming mobility worldwide by connecting every car and city</h2>
+    </header>
+    <div class="intro__content">
+	
+	
+      <p style="background-color:#ECFF7C;">Founded in 2005, INRIX pioneered the practice of managing traffic by <br> analyzing data not just from road sensors, but also from vehicles.<br> This breakthrough approach enabled INRIX to become one of the<br>leading providers of data and insight into how people move around the world.
+ INRIX delivers innovative products for the automotive<br> and transportation industries such as real-time<br> parking and traffic information and solutions that facilitate <br>the safe testing and deployment of autonomous vehicles.<br> We also provide new insights to a variety of other industries that can make<br> better business decisions by understanding how people move throughout the day. 
+ At INRIX, we see a world of possibilities enabled<br> by making transportation more intelligent.
+ </font>
+ </p>
+          </div>
+  </div>
+</section>
+
+
+
+
+
+<h1 style="background-color:#5FF9FF;">what you want to know about us..</h1>
+
+<div class="container">
+  <form onsubmit="return validate()" action="message.html">
+
+    <label for="fname">First Name<br></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"><br>Last Name<br></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+	<label for="Email Address"><br>Email Address<br></label>
+    <input type="text" id="Email" name="Email Address" placeholder="Email Address..">
+	
+
+    <label for="password "><br>password<br></label>
+	 <input type="text" id="passw" name="password" placeholder="password..">
+	
+    <label for="subject"><br>Subject<br></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <br><input type="submit"value="Submit">
+	<script src="js/about.js"></script>
+
+  </form>
+</div>
+  
+  
+  
+  <!--fotter -->
+  <footer>
+    <div id="foot">
+
+      <div id="links">
+        <a id="footmenu" href="#">Home</a> |
+        <a href="">Privacy Policy</a> |
+        <a href="Terms and conditions.html">Terms and conditions</a> |
+        <a href="">Disclaimer</a> |
+        <a href="about.html">About Us</a>
+        <br/>
+        <br/>
+        <a id="footmenu" href="Login.html">Login</a> |
+        <a href="signup.html">Register</a> |
+        <a href="">Advertise</a> |
+        <a href="">Careers</a> |
+        <a href="">Contact Us</a>
+        <br/>
+        <br/>
+        <img id="norton" src="images/norton.png">
+      </div>
+        <p> © 2019 Park me. All Rights Reserved. Site by
+          <a href="#">INRIX</a>
+          <br/>
+          <br/> Copyright © 1995-2019 eBay Inc. All Rights Reserved. Accessibility, User Agreement, Privacy, Cookies and AdChoice
+          <br/> Norton Secured - powered by Verisign</p>
+
+      </div>
+    </div>
+  </footer>
+  <!-- slide header js -->
+  <script src="js/slide.js"></script>
+
+
+</body>
+</html>

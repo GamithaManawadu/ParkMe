@@ -1,0 +1,11 @@
+.container1 h1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size:30px;
+	color:#05AA6B;
+}
+.container1 h3{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 600;
+	color: aquamarine;
+}

@@ -1,0 +1,76 @@
+@import: url('https://fonts.googleapis.com/css?family=Monoton|Nanum+Pen+Script&display=swap');
+
+body{
+    background-image: url(../images/img.png);
+    background-size: cover;
+}
+
+.bb{
+    width: 300px;
+    height: 350px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-left: 55%;
+    padding-top: 10px;
+    padding-left: 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -o-border-radius: 15px;
+    -moz-border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    box-shadow: inset -4px -4px rgba(0, 0, 0, 0.748);
+}
+
+.bb h1{
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+}
+.bb input[type="text"]{
+    width: 250px;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -moz-border-radius: 6px; 
+}
+.bb input[type="password"]{
+    width: 250px;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -moz-border-radius: 6px; 
+}
+
+.bb button {
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -moz-border-radius: 6px; 
+    background-color: rgb(253, 196, 9);
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 65px;
+}
+
+.bb button:hover{
+    
+    background-color:black;
+}
+ 
+.bb button:hover a{
+    color: rgb(255, 201, 25);
+}
+
+a{
+    color:  black;
+    text-decoration: none;
+}

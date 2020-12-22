@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+  <title>Park me</title>
+
+    <!--menu bar-->
+  <link rel="stylesheet" type="text/css" href="css/menu bar.css">
+
+    <!--Log in form -->
+    <link rel="stylesheet" type="text/css" href="css/login form.css">
+    
+    <!-- Slide Header -->
+  <link rel="stylesheet" type="text/css" href="css/slide.css">
+ 
+  <!--footer -->
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <style>
+    body {
+        background-color: rgb(192,192,192);
+        overflow-x: hidden;
+        }
+  </style>
+</head>
+
+<body>
+
+  <!--menu bar-->
+  <ul class="menu">
+    <li class="menubar">
+      <a href="#">Park me</a>
+    </li>
+    <li class="menubar">
+      <a href="#">HOME</a>
+    </li>
+    <li class="menubar">
+      <a href="#">Book A Place</a>
+    </li>
+    <li class="menubar">
+      <a href="#">Advertise Your Place</a>
+    </li>
+    <li class="menubar">
+      <a href="#">Contact Us</a>
+    </li>  
+    </ul>
+    
+    
+
+   <!-- Slide Header -->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/Home/1.jpg">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/Home/3.jpg">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/Home/2.jpg">
+    </div>
+
+  </div>
+  <br />
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <br/>
+
+<!--Login form-->
+<form method="GET" action="#">
+  <div class="imgcontainer">
+    <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+   <h1 class="heading" align="center">
+      LOGIN
+    </h1>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" id="user" name="uname" required>
+    <br/>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="pwd" name="psw" required>
+    <br/>
+    <button type="submit" id="submit" onclick="validate()">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn" >Cancel</button>
+    <br/>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+     <span class="mmb">Not a member <a href="signup.html">yet?</a></span>
+  </div>
+  </div> 
+</form>
+
+   <!--footer -->
+  <footer>
+    <div id="foot">
+
+      <div id="links">
+        <a id="footmenu" href="#">Home</a> |
+        <a href="">Privacy Policy</a> |
+        <a href="#">Terms of Use</a> |
+        <a href="">Disclaimer</a> |
+        <a href="#">About Us</a>
+        <br/>
+        <br/>
+        <a id="footmenu" href="Login.html">Login</a> |
+        <a href="signup.html">Register</a> |
+        <a href="">Advertise</a> |
+        <a href="">Careers</a> |
+        <a href="">Contact Us</a>
+        <br/>
+        <br/>
+        <img id="norton" src="images/norton.png">
+      </div>
+        <p> © 2019 Park me. All Rights Reserved. Site by
+          <a href="#">INRIX</a>
+          <br/>
+          <br/> Copyright © 1995-2019 eBay Inc. All Rights Reserved. Accessibility, User Agreement, Privacy, Cookies and AdChoice
+          <br/> Norton Secured - powered by Verisign</p>
+
+      </div>
+    </div>
+  </footer>
+  <!-- slide header js -->
+  <script src="js/slide.js"></script>
+
+   <!--validate-->
+   <script src="js/vali.js"></script>
+
+</body>
+</html>
